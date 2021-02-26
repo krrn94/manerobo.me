@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.rogo img{
+  width:100%;
+}
+.video{
+  position:relative;
+  width:100%;
+
+}
+
+.video img{
+  width:100%;
+  text-align: center;
+}
+
+
+.backbtn img{
+  width:100%;
+}
+
+.backbtn {
+    position: relative;
+}
+
+.btn img{
+  width:88%;
+
+}
+
+.btn{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    position: absolute;
+    top: 32%;
+    left: 10%;
+}
+
+.btn {
+   margin: 0 auto;
+}
+ .btn img {
+   animation: anime1 0.5s ease 0s infinite alternate;
+   transform-origin:center;
+ }
+ @keyframes anime1 {
+   from {
+     transform: scale(0.9,0.9);
+   }
+   to {
+     transform: scale(1,1);
+   }
+ }
